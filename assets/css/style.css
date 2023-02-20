@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: blue;
+}
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: cyan;
+}
+.link{
+    padding-inline: 15%;
+    border: 1px dashed black;
+    background-color: orange;
+}
+.logo{
+    padding-right: 5%;
+    border: 1px dashed black;
+    background-color: orange;
+}
+.login{
+    padding-left: 5%;
+    border: 1px dashed black;
+    background-color: orange;
+}
+.block{
+
+}
