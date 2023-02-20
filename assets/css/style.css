@@ -7,7 +7,10 @@
     display: flex;
     justify-content: center;
 }
-header{
+.bordi{
+    border: 1px dashed black;
+}
+.bg-block{
     background-color: blue;
 }
 nav{
@@ -17,19 +20,48 @@ nav{
 }
 .link{
     padding-inline: 15%;
-    border: 1px dashed black;
     background-color: orange;
 }
 .logo{
     padding-right: 5%;
-    border: 1px dashed black;
     background-color: orange;
 }
 .login{
     padding-left: 5%;
-    border: 1px dashed black;
     background-color: orange;
 }
 .block{
-
+    height: 200px;
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: pink;
+}
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-inline: 500px;
+}
+.speciale{
+    margin-inline: 500px;
+}
+.azzurro{
+    width: 70%;
+    height: 200px;
+    background-color: lightblue;
+}
+.rosa{
+    width: 30%;
+    height: 200px;
+    background-color: pink;
+}
+.grey{
+    background-color: lightslategray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.green{
+    width: 100%;
+    height: 400px;
+    background-color: green;
 }
